@@ -15,7 +15,7 @@
       <header class="topbar">
         <button class="icon-button" aria-label="메뉴 열기" id="menuButton"><span></span><span></span></button>
         <a class="brand" href="#top">LALA <small>BEAUTY</small></a>
-        <button class="icon-button calendar" aria-label="예약하기" data-booking><span></span></button>
+        <a class="icon-button calendar" aria-label="전화 상담 010-5147-3175" href="tel:01051473175"><span></span></a>
       </header>
 
       <main id="top">
@@ -27,7 +27,7 @@
             <p class="eyebrow">BEAUTY & WELLNESS STUDIO</p>
             <h1>오늘의 나를<br /><em>더 아름답게</em></h1>
             <p class="hero-description">바쁜 일상에 지친 몸과 마음에<br />온전한 쉼과 아름다운 변화를 선물하세요.</p>
-            <button class="dark-button" data-booking>나만의 케어 예약하기 <b>→</b></button>
+            <a class="dark-button" href="tel:01051473175">상담 문의 010 5147 3175 <b>→</b></a>
           </div>
           <div class="hero-art" aria-label="꽃을 든 여성의 추상 일러스트">
             <div class="sun"></div><div class="arch"></div><div class="face"></div><div class="hair"></div><div class="neck"></div><div class="flower flower-a">✦</div><div class="flower flower-b">✦</div><div class="flower flower-c">✦</div>
@@ -62,18 +62,16 @@
         </section>
 
         <section class="visit section-pad" id="visit">
-          <p class="eyebrow">VISIT LALA</p><h2>당신을 위한<br /><em>시간을 비워둘게요</em></h2><button class="wide-button" data-booking>예약 문의하기 <b>→</b></button>
+          <p class="eyebrow">VISIT LALA</p><h2>당신을 위한<br /><em>시간을 비워둘게요</em></h2><a class="wide-button" href="tel:01051473175">전화 상담 010 5147 3175 <b>→</b></a>
           <div class="location"><div class="pin">●</div><div><h3>라라뷰티</h3><p>경기도 동두천시 강변로296번길 44<br />1층 103호 · 매일 10:00 — 20:00</p></div><a href="https://map.naver.com" target="_blank" rel="noreferrer">지도 보기 ↗</a></div>
           <a class="contact-line" href="tel:01051473175"><span>CONSULTATION</span><b>010 5147 3175</b><i>전화 상담 ↗</i></a>
         </section>
       </main>
 
-      <nav class="bottom-nav"><a class="active" href="#top"><b>⌂</b>홈</a><a href="#services"><b>◇</b>케어</a><button data-booking class="nav-book"><b>+</b><span>예약</span></button><a href="#visit"><b>⌖</b>오시는 길</a><a href="#top" id="infoLink"><b>◯</b>안내</a></nav>
+      <nav class="bottom-nav"><a class="active" href="#top"><b>⌂</b>홈</a><a href="#services"><b>◇</b>케어</a><a class="nav-book" href="tel:01051473175"><b>☎</b><span>전화상담</span></a><a href="#visit"><b>⌖</b>오시는 길</a><a href="#top" id="infoLink"><b>◯</b>안내</a></nav>
     </div>
 
-    <div class="modal-backdrop" id="bookingModal" aria-hidden="true"><section class="booking-modal" role="dialog" aria-modal="true" aria-labelledby="bookingTitle"><button class="modal-close" aria-label="닫기">×</button><p class="eyebrow">BOOKING REQUEST</p><h2 id="bookingTitle">나를 위한<br /><em>케어를 골라주세요</em></h2><form id="bookingForm"><label>원하시는 케어<select required><option value="">케어 선택</option><option>프리미엄 리프팅 (라쎄라 · 울쎄라)</option><option>초음파 통증 케어</option><option>이온 디톡스 족욕</option><option>속눈썹 펌 · 연장술</option></select></label><label>성함<input required placeholder="성함을 입력해 주세요" /></label><label>연락처<input required type="tel" placeholder="010-0000-0000" /></label><button class="dark-button" type="submit">예약 상담 신청하기 <b>→</b></button></form></section></div>
     <a class="quick-call" href="tel:01051473175" aria-label="전화 상담 010 5147 3175">☎<span>상담</span></a>
-    <div class="toast" id="toast">예약 상담 신청이 완료되었어요. 곧 연락드릴게요!</div>
     <script src="app.js"></script>
   </body>
 </html>
